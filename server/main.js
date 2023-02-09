@@ -3,6 +3,7 @@ import { Accounts } from 'meteor/accounts-base';
 import { TasksCollection } from '/imports/db/TaskCollection';
 import { ServiceConfiguration } from 'meteor/service-configuration';
 import '/imports/api/tasksMethods';
+import '/imports/api/tasksPublications';
 
 const SEED_USERNAME = 'meteorite';
 const SEED_PASSWORD = 'password';
